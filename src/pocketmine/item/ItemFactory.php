@@ -280,8 +280,7 @@ class ItemFactory{
 		self::registerItem(new GoldenAppleEnchanted());
 		self::registerItem(new Item(Item::HEART_OF_THE_SEA, 0, "Heart of the Sea"));
 		self::registerItem(new Item(Item::TURTLE_SHELL_PIECE, 0, "Scute"));
-		//TODO: TURTLE_HELMET
-
+		//TODO: TURTLE_HELMET 
 		self::registerItem(new Record(Item::RECORD_13, LevelSoundEventPacket::SOUND_RECORD_13));
 		self::registerItem(new Record(Item::RECORD_CAT, LevelSoundEventPacket::SOUND_RECORD_CAT));
 		self::registerItem(new Record(Item::RECORD_BLOCKS, LevelSoundEventPacket::SOUND_RECORD_BLOCKS));
@@ -302,6 +301,9 @@ class ItemFactory{
 		self::registerItem(new Item(Item::HONEYCOMB, 0, "Honeycomb"));
 		self::registerItem(new HoneyBottle());
 		self::registerItem(new Spyglass());
+
+		// 2.0.0 content
+		self::registerItem(new Mace(Item::MACE, 0, "Mace"));
 	}
 
 	/**
