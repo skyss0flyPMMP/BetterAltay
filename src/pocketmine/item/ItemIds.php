@@ -98,6 +98,7 @@ interface ItemIds extends BlockIds{
 	public const OAK_DOOR = 324, WOODEN_DOOR = 324;
 	public const BUCKET = 325;
 
+	public const MACE = 327;
 	public const MINECART = 328;
 	public const SADDLE = 329;
 	public const IRON_DOOR = 330;
